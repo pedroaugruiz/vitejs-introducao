@@ -1,7 +1,7 @@
 
 import './index.css';
 
-function Home() {
+function Exemplo02() {
 
   return (
     <div className='container'>
@@ -15,8 +15,14 @@ function Home() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nemo explicabo dicta sequi maiores nam laudantium? Doloremque deserunt voluptates quidem nulla delectus nam illum. Tenetur quisquam placeat consequuntur expedita quasi. 
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat magnam incidunt fugit reprehenderit dolor quidem natus, iste eveniet inventore accusantium rerum culpa. Nisi tempore consequuntur suscipit quia maiores ab. Fugiat!
       </p>
+      <div className='containerBlocos'>
+        <div className='brancoBranco'></div>
+        <div className='brancoCinza'></div>
+        <div className='pretoPreto'></div>
+        <div className='pretoCinza'></div>
+      </div>
     </div>
   )
 }
 
-export default Home
+export default Exemplo02;
